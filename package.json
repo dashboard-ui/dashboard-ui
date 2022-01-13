@@ -20,6 +20,7 @@
     "@babel/core": "^7.16.7",
     "@babel/plugin-proposal-class-properties": "^7.16.7",
     "babel-loader": "^8.2.3",
+    "d3": "^7.3.0",
     "lerna": "^4.0.0"
   }
 }
