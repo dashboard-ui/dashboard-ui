@@ -16,3 +16,6 @@
 
 # Dpeloy
 .deploy
+
+# dist folder
+**/dist
