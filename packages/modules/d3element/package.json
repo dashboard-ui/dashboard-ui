@@ -1,0 +1,42 @@
+{
+  "name": "@dashboard-ui/d3element",
+  "version": "0.1.0",
+  "description": "Core create d3 wrapper element",
+  "keywords": [
+    "@dashboard-ui",
+    "graph",
+    "chart"
+  ],
+  "author": "VictorDeAndres <victor.deandres@gmail.com>",
+  "homepage": "https://github.com/dashboard-ui/dashboard-ui/tree/master/packages/modules/d3element#readme",
+  "license": "ISC",
+  "input": "src/index.js",
+  "main": "dist/core-d3element.esm.js",
+  "module": "dist/core-d3element.cjs.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "src"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dashboard-ui/dashboard-ui.git"
+  },
+  "scripts": {
+    "build:module": "module-builder"
+  },
+  "bugs": {
+    "url": "https://github.com/dashboard-ui/dashboard-ui/issues"
+  },
+  "peerDependencies": {
+    "d3": "7.x"
+  },
+  "devDependencies": {
+    "module-builder": "^0.1.0"
+  }
+}
