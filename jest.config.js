@@ -4,6 +4,6 @@ module.exports = {
   ...base,
   roots: ['<rootDir>'],
   projects: [
-    '<rootDir>/packages',
+    '<rootDir>/packages/modules',
   ],
 };
