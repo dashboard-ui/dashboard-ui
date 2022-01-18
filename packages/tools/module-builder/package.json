@@ -1,10 +1,10 @@
 {
   "name": "module-builder",
-  "version": "0.0.0",
-  "description": "Custom tools",
+  "version": "0.1.0",
+  "description": "",
   "keywords": [],
   "author": "VictorDeAndres <victor.deandres@gmail.com>",
-  "homepage": "https://github.com/dashboard-ui/dashboard-ui/tree/master/packages/tools/module-builder#readme",
+  "homepage": "https://github.com/dashboard-ui/dashboard-ui/tree/master/packages/modules/module-builder#readme",
   "license": "ISC",
   "main": "lib/module-builder.js",
   "bin": {
