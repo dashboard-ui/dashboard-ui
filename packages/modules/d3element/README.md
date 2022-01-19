@@ -3,7 +3,7 @@
 [![Tested with jest](https://img.shields.io/badge/tested_with-jest-99424f.svg)](https://github.com/facebook/jest)
 ![npm version](https://img.shields.io/github/package-json/v/dashboard-ui/dashboard-ui?filename=packages%2Fmodules%2Fd3element%2Fpackage.json)
 
-Create D3 object wrapper inside html element
+Create D3 object wrapper. 
 
 ## Installation
 
@@ -20,27 +20,51 @@ const d3GraphComponent = D3Element(htmlElement);
 ```
 
 
-## Documentation
+## API Reference
 
-### Constructor
 
-Properties  | Type        | Required        | Description
-------------|-------------|-----------------|------------------------------------------------------
-Node        | HTML Element| Yes             | HTML element where the graph must be draw
-Margins     | Object      | No              | Internal margins.
-"top"       | number      |                 | Top margin: Default: 20      
-"bottom"    | number      |                 | Bottom margin: Default: 20      
-"left"      | number      |                 | Left margin: Default: 20      
-"right"     | number      |                 | Right margin: Default: 20      
+### D3Element(htmlElement [, margins] )
+
+### Options
+
+#### htmlElement
+- Type: `HTML Element`
+
+HTML element where the graph must be drawn.
+
+#### margins
+- Type: `Object`
+- Default: { "top": 20, "bottom": 20, "left":20, "right": 20}
+
+Internal margins
+
 
 ### Properties
 
-Properties  | Description
-------------|--------------------------------------------------------------------------------------
-id          | Return the unique id of the d3 element
-height      | Return the height of the d3 element
-width       | Return the width of the d3 element
-margins     | Return the margins of the d3 element
-d3Node      | Return HTMLElement
+#### id
+- Type: `String`
+
+Return the unique id of the d3 element
+
+#### height
+- Type: `number`
+
+Return the height of container element
+
+#### width
+- Type: `number`
+
+Return the width of container element
+#### margins
+- Type: `object`
+
+Return internal margins of the container element
+
+#### d3Node
+- Type: `HTMLElement`
+
+Return HTMLElement
+
+
 
 
