@@ -12,4 +12,4 @@ jobs:
       - name: Install Dependencies
         run: npm install
       - name: Execute test
-        run: npm test:all
+        run: npm run test:all
